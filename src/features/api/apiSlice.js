@@ -56,7 +56,7 @@ export const apiSlice = createApi({
   }),
 });
 
-//RTK Query creates custom hooks based on the method we provide
+
 export const {
     useGetTodosQuery,
     useAddTodoMutation,

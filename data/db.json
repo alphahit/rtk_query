@@ -1,4 +1,16 @@
 {
+  "categories": [
+    {
+      "id": 1,
+      "name": "Study",
+      "description": "Topics To Study"
+    },
+    {
+      "id": 2,
+      "name": "Task",
+      "description": "Work Assignments to Complete"
+    }
+  ],
   "todos": [
     {
       "userId": 1,
@@ -770,12 +782,6 @@
     },
     {
       "userId": 8,
-      "id": "143",
-      "title": "eum non recusandae cupiditate animi",
-      "completed": false
-    },
-    {
-      "userId": 8,
       "id": "144",
       "title": "ut eum exercitationem sint",
       "completed": false
@@ -964,7 +970,7 @@
       "userId": 9,
       "id": "175",
       "title": "laudantium eius officia perferendis provident perspiciatis asperiores",
-      "completed": true
+      "completed": false
     },
     {
       "userId": 9,

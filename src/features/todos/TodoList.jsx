@@ -18,6 +18,8 @@ const TodoList = () => {
       isError,
       error
   } = useGetTodosQuery()
+//Above we are getting the isLoading, isSuccess etc because it's a query but below in the mutation we will not be getting anything.
+
   const [addTodo] = useAddTodoMutation()
   const [updateTodo] = useUpdateTodoMutation()
   const [deleteTodo] = useDeleteTodoMutation()
@@ -53,7 +55,7 @@ const TodoList = () => {
     //content = JSON.stringify(todos)
       content = todos.map(todo => { //JSON.stringify(todos)
           return (
-              <article key={todo.id}>
+              <article style={{display: 'flex', flexDirection:'row', justifyContent: 'space-between', margin: '10px'}} key={todo.id}>
                   <div className="todo">
                       <input
                           type="checkbox"
